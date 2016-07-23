@@ -69,7 +69,7 @@ function idCmd(dataHash, callback) {
   var regex = /^\/id$/;
 
   if (regex.test(dataHash.request.text)) {
-    callback(true, "Your groupme id is: HI");
+    callback(true, "Your groupme id is: HI...");
   } else {
     return false;
   }
